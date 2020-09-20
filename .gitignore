@@ -8,6 +8,11 @@ GameEngine/GameEngine.vcxproj
 GameEngine/GameEngine.vcxproj.filters
 GameEngine/GameEngine.vcxproj.user
 
+SandBox/SandBox.vcxproj
+SandBox/SandBox.vcxproj.filters
+SandBox/SandBox.vcxproj.user
+
+
 <<<<<<< HEAD
 =======
 *.user
