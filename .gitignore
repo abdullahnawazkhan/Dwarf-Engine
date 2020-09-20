@@ -3,10 +3,10 @@ bin/
 bin-int/
 !vendor/bin
 
-GameEngine.sln
-GameEngine/GameEngine.vcxproj
-GameEngine/GameEngine.vcxproj.filters
-GameEngine/GameEngine.vcxproj.user
+Dwarf.sln
+Dwarf/Dwarf.vcxproj
+Dwarf/Dwarf.vcxproj.filters
+Dwarf/Dwarf.vcxproj.user
 
 SandBox/SandBox.vcxproj
 SandBox/SandBox.vcxproj.filters

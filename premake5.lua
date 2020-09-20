@@ -1,5 +1,5 @@
 -- Main Workspace which includes both our Engine and Sandbox testing
-workspace "GameEngine"
+workspace "Dwarf"
 	architecture "x64"
 
 	-- Debug:   everything enabled
@@ -14,9 +14,9 @@ workspace "GameEngine"
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 -- Game Engine Project
-project "GameEngine"
-	-- will be stored inside a folder "GameEngine" inside the workspace
-	location "GameEngine"
+project "Dwarf"
+	-- will be stored inside a folder "Dwarf" inside the workspace
+	location "Dwarf"
 	-- SharedLib is a DLL Project
 	kind "SharedLib"
 	language "C++"
@@ -30,6 +30,7 @@ project "GameEngine"
 	}
 
 	includedirs {
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
@@ -73,13 +74,13 @@ project "SandBox"
 	}
 
 	includedirs {
-		"GameEngine/vendor/spdlog/include",
-		"GameEngine/src"
+		"Dwarf/vendor/spdlog/include",
+		"Dwarf/src"
 	}
 
-	-- linking GameEngine with SandBox
+	-- linking Dwarf with SandBox
 	links {
-		"GameEngine"
+		"Dwarf"
 	}
 
 	filter "system:windows"

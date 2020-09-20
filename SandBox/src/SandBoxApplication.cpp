@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "GameEngine.h"
+#include "Dwarf.h"
 
-class Sandbox : public GameEngine::Application {
+class Sandbox : public Dwarf::Application {
 public:
 	Sandbox() {
 	
@@ -13,6 +13,6 @@ public:
 	}
 };
 
-GameEngine::Application* GameEngine::CreateApplication() {
+Dwarf::Application* Dwarf::CreateApplication() {
 	return new Sandbox();
 }
