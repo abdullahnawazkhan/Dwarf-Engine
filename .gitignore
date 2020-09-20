@@ -1,8 +1,10 @@
-# Directories
 .vs/
 bin/
 bin-int/
+!vendor/bin
 
-# Files
+GameEngine.sln
+GameEngine/GameEngine.vcxproj
+GameEngine/GameEngine.vcxproj.filters
+GameEngine/GameEngine.vcxproj.user
 
-*.user
