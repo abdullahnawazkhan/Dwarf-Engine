@@ -8,3 +8,12 @@ GameEngine/GameEngine.vcxproj
 GameEngine/GameEngine.vcxproj.filters
 GameEngine/GameEngine.vcxproj.user
 
+<<<<<<< HEAD
+=======
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+>>>>>>> cf5f6c7380f67c91bdb7d904276529a305f6a0b9
