@@ -1,1 +1,1 @@
-# Game Engine FYP
+# Game Engine developed using OpenGL
